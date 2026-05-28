@@ -4,22 +4,22 @@
 #  NOTE : L'application est une PWA 100% client-side.
 #  Ce fichier est nécessaire UNIQUEMENT si vous déployez un
 #  backend Python (ex: Flask sur Render) pour :
-#    - authentification utilisateurs
-#    - stockage des analyses en base de données
-#    - API de calibration des signatures
+#     - authentification utilisateurs
+#     - stockage des analyses en base de données
+#     - API de calibration des signatures
 #
 #  Pour le déploiement statique (Render Static Site ou GitHub Pages),
-#  ce fichier n'est PAS requis.
+#   ce fichier n'est PAS requis.
 # ================================================================
 
 # Serveur web (optionnel — si backend Flask)
 flask==3.0.3
 gunicorn==22.0.0
 
-# Traitement image côté serveur (si fallback serveur nécessaire)
-opencv-python-headless==4.9.0.80
-numpy==1.26.4
-Pillow==10.3.0
+# Traitement image côté serveur - Versions modernisées pour compatibilité
+opencv-python-headless>=4.10.0.0
+numpy>=2.0.0
+Pillow>=10.4.0
 
 # CORS pour API Flask
 flask-cors==4.0.1
