@@ -29,7 +29,7 @@
       "short_name": "Analyser",
       "description": "Lancer directement l'analyse",
       "url": "/?action=analyze",
-      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "icons/icon-192x192.png", "sizes": "192x192" }]
     }
   ]
 }
