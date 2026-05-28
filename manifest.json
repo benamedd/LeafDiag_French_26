@@ -2,7 +2,7 @@
   "name": "LeafDiag — Diagnostic foliaire",
   "short_name": "LeafDiag",
   "description": "Mesure la sévérité des symptômes foliaires par analyse colorimétrique Lab.",
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#1a2e13",
