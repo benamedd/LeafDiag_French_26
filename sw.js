@@ -14,8 +14,8 @@ const STATIC_ASSETS = [
   './app.js',
   './style.css',
   './manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
+  './icons/icon-192x192.png',
+  './icons/icon-512x512.png',
 ];
 
 // OpenCV.js — mis en cache séparément (lourd ~8 Mo)
