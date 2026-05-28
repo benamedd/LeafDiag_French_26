@@ -1,0 +1,35 @@
+{
+  "name": "LeafDiag — Diagnostic foliaire",
+  "short_name": "LeafDiag",
+  "description": "Mesure la sévérité des symptômes foliaires par analyse colorimétrique Lab.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a2e13",
+  "theme_color": "#1a2e13",
+  "lang": "fr",
+  "categories": ["agriculture", "science", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Analyser une feuille",
+      "short_name": "Analyser",
+      "description": "Lancer directement l'analyse",
+      "url": "/?action=analyze",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
